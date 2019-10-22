@@ -34,7 +34,7 @@ func Reverse(s string) int {
 	}
 	ret, err := strconv.Atoi(string(runes))
 	if err != nil{
-		fmt.Errorf("Unexpected error: %#v", err.Error())
+	 	fmt.Printf("Unexpected error: %#v", err.Error())
 	}
 	return ret
 }

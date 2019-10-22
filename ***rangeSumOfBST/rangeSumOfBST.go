@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___rangeSumOfBST
 
 
 type TreeNode struct {

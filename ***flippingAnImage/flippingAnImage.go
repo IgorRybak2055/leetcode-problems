@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___flippingAnImage
 
 func flipAndInvertImage(A [][]int) [][]int {
 	A = flip(A)

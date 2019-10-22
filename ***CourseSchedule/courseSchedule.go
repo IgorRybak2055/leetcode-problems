@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___CourseSchedule
 
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	a := make(map[int][]int)

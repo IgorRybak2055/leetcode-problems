@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___uniqueMorseCodeWords
 
 func uniqueMorseRepresentations(words []string) int {
 	morse := [26]string{".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."}

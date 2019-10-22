@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___gasStation
 
 func canCompleteCircuit(gas []int, cost []int) int {
 	for i := 0; i < len(gas); i++ {

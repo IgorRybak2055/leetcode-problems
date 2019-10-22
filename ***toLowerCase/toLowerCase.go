@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___toLowerCase
 
 import "strings"
 

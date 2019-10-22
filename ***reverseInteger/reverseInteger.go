@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___reverseInteger
 
 import (
 	"fmt"

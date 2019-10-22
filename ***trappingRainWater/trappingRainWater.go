@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___trappingRainWater
 
 
 func min(x, y int) int {

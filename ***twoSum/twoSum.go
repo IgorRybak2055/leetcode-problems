@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___twoSum
 
 func twoSum(nums []int, target int) []int {
 	sum := make([]int, 0)

@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___perfectSquares
 
 func numSquares(n int) int {
 	qtyNums := make([]int, n+1)

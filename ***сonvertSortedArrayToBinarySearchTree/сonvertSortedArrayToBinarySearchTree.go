@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___сonvertSortedArrayToBinarySearchTree
 
 type TreeNode struct {
 	Val int

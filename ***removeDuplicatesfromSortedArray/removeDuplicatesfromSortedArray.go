@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___removeDuplicatesfromSortedArray
 
 func removeDuplicates(nums []int) int {
 	m := make(map[int]bool)

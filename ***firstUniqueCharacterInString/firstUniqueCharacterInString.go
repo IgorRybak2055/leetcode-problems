@@ -1,4 +1,6 @@
-package leetcodeProblems
+package ___firstUniqueCharacterInString
+
+import "strings"
 
 func firstUniqChar(s string) int {
 	a := make(map[rune]int, 0)

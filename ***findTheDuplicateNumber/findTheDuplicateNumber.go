@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___findTheDuplicateNumber
 
 func findDuplicate(nums []int) int {
 	myMap := make(map[int]bool)

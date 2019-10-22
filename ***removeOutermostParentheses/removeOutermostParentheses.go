@@ -1,4 +1,4 @@
-package leetcodeProblems
+package ___removeOutermostParentheses
 
 func removeOuterParentheses(S string) string {
 	count, begin := 0, 1

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"math"
-)
+import "math"
 
 func main()  {
 	// for travis CI

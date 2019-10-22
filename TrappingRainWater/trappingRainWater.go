@@ -1,5 +1,8 @@
 package main
 
+func main()  {
+	// for travis CI
+}
 
 func min(x, y int) int {
 	if x < y {

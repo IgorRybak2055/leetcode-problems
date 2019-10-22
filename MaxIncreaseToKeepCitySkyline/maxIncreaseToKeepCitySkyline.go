@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func maxIncreaseKeepingSkyline(grid [][]int) int {
 	maxRow, maxCol := make(map[int]int), make(map[int]int)
 

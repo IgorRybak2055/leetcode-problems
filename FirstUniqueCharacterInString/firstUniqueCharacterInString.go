@@ -2,6 +2,10 @@ package main
 
 import "strings"
 
+func main()  {
+	// for travis CI
+}
+
 func firstUniqChar(s string) int {
 	a := make(map[rune]int, 0)
 	for _, ch := range s{

@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func removeDuplicates(nums []int) int {
 	m := make(map[int]bool)
 	var a int

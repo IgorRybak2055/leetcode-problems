@@ -1,7 +1,7 @@
 package main
 
 func main()  {
-	
+	// for travis CI
 }
 
 func isPalindrome(x int) bool {

@@ -6,6 +6,10 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+func main()  {
+	// for travis CI
+}
+
 func sortedArrayToBST(nums []int) *TreeNode {
 	if len(nums) == 0 {
 		return nil

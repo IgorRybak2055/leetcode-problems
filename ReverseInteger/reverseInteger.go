@@ -6,6 +6,10 @@ import (
 	"strconv"
 )
 
+func main()  {
+	// for travis CI
+}
+
 func reverse(x int) int {
 	sign := 1
 	if x < 0 {

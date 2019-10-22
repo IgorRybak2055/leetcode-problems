@@ -1,8 +1,8 @@
 package main
 
-func main() {
+func main()  {
+	// for travis CI
 }
-
 func longestPalindrome(s string) string {
 	var (
 		start, end int

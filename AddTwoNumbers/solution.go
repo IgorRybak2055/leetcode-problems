@@ -1,37 +1,12 @@
 package main
 
-import "fmt"
-
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
 func main()  {
-	l1 := &ListNode{
-		Val:  9,
-		Next: &ListNode{
-			Val:  9,
-			Next: nil,
-		},
-	}
-	l2 := &ListNode{
-		Val:  9,
-		Next: &ListNode{
-			Val:  9,
-			Next: nil,
-		},
-	}
-	out := addTwoNumbers(l1, l2)
-	for {
-		if out.Next != nil {
-			fmt.Println("REZ -- ", out.Val)
-			out = out.Next
-		} else {
-			fmt.Println("REZ -- ", out.Val)
-			return
-		}
-	}
+	// for travis CI
 }
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {

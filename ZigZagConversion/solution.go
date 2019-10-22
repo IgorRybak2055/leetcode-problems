@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
 func main()  {
-	fmt.Println(convert("ABCD", 6))
+	// for travis CI
 }
 
 func convert(s string, numRows int) string {

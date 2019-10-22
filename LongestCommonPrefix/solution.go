@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
-
-func main() {
-	//fmt.Println(longestCommonPrefix([]string{"flower","flow","flight"}))
-	//fmt.Println(longestCommonPrefix([]string{"dog","racecar","car"}))
-	fmt.Println(longestCommonPrefix([]string{"c", "c"}))
+func main()  {
+	// for travis CI
 }
 
 func longestCommonPrefix(strs []string) string {

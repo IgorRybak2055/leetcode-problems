@@ -7,6 +7,10 @@ type TreeNode struct {
 	Right *TreeNode
  }
 
+func main()  {
+	// for travis CI
+}
+
 func constructMaximumBinaryTree(nums []int) *TreeNode {
 	if len(nums) == 1 {
 		return &TreeNode{Val: nums[0]}

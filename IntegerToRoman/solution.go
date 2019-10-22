@@ -1,7 +1,7 @@
 package main
 
-func main() {
-	intToRoman(4)
+func main()  {
+	// for travis CI
 }
 
 func intToRoman(num int) string {

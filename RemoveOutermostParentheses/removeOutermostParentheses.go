@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func removeOuterParentheses(S string) string {
 	count, begin := 0, 1
 	result := ""

@@ -5,13 +5,6 @@ import (
 	"testing"
 )
 
-type TreeNode struct {
-	Val int
-	Left *TreeNode
-	Right *TreeNode
-}
-
-
 type TestCase struct {
 	preopder []int
 	expected *TreeNode

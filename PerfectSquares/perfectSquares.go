@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func numSquares(n int) int {
 	qtyNums := make([]int, n+1)
 	qtyNums[0] = 0

@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
-	fmt.Println(myAtoi("56494 asdqfwag QEG W 44"))
+func main()  {
+	// for travis CI
 }
 
 func myAtoi(str string) int {

@@ -2,6 +2,10 @@ package main
 
 import "strings"
 
+func main()  {
+	// for travis CI
+}
+
 func isPalindrome(s string) bool {
 	s = strings.ToLower(s)
 

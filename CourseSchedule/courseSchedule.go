@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func CanFinish(numCourses int, prerequisites [][]int) bool {
 	a := make(map[int][]int)
 	dep := make([]int, numCourses)

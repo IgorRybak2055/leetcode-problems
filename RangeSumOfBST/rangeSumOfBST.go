@@ -7,6 +7,10 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+func main()  {
+	// for travis CI
+}
+
 func rangeSumBST(root *TreeNode, L int, R int) int {
 	if root == nil {
 		return 0

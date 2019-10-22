@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func twoSum(nums []int, target int) []int {
 	sum := make([]int, 0)
 	for ind1 := 0; ind1 < len(nums); ind1++ {

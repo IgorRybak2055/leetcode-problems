@@ -1,5 +1,15 @@
 package main
 
+type TreeNode struct {
+	Val int
+	Left *TreeNode
+	Right *TreeNode
+}
+
+func main()  {
+	// for travis CI
+}
+
 func bstFromPreorder(preorder []int) *TreeNode {
 	if len(preorder) < 1 {
 		return nil

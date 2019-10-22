@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func canCompleteCircuit(gas []int, cost []int) int {
 	for i := 0; i < len(gas); i++ {
 		if checkThisRoad(i, gas, cost) {

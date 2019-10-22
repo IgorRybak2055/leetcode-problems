@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func findDuplicate(nums []int) int {
 	myMap := make(map[int]bool)
 

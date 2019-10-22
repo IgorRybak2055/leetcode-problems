@@ -1,5 +1,9 @@
 package main
 
+func main()  {
+	// for travis CI
+}
+
 func flipAndInvertImage(A [][]int) [][]int {
 	A = flip(A)
 	return invert(A)

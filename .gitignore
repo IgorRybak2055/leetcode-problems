@@ -1,0 +1,17 @@
+.idea
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93a233d5363e9260d24d818fdba3a32a7c595abf
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out

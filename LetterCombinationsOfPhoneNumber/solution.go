@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	fmt.Println(letterCombinations("234"))
+
 }
 
 func getLetters(button byte) (letters []string) {

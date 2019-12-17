@@ -1,3 +1,8 @@
+.idea
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93a233d5363e9260d24d818fdba3a32a7c595abf
 # Binaries for programs and plugins
 *.exe
 *.exe~

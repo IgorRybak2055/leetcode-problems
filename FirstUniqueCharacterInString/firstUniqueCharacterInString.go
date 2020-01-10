@@ -2,13 +2,13 @@ package main
 
 import "strings"
 
-func main()  {
+func main() {
 	// for travis CI
 }
 
 func firstUniqChar(s string) int {
-	a := make(map[rune]int, 0)
-	for _, ch := range s{
+	a := make(map[rune]int)
+	for _, ch := range s {
 		a[ch]++
 	}
 

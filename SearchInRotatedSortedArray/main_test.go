@@ -5,35 +5,36 @@ import (
 )
 
 type TestCase struct {
-	text     string
-	expected bool
+	nums     []int
+	target   int
+	expected int
 }
 
 func TestSolutionConstructBinaryTree(t *testing.T) {
 	cases := []TestCase{
 		{
-			text:     "a man, a plan, a canal: panama",
-			expected: true,
+			nums:     []int{4, 5, 6, 7, 0, 1, 2},
+			target:   0,
+			expected: 4,
 		},
 		{
-			text:     "race a car",
-			expected: false,
+			nums:     []int{4, 5, 6, 7, 0, 1, 2},
+			target:   3,
+			expected: -1,
 		},
 		{
-			text:     "",
-			expected: true,
-		},
-		{
-			text:     "шалаш",
-			expected: true,
+			nums:     []int{4, 5, 6, 7, 0, 1, 2},
+			target:   4,
+			expected: 0,
 		},
 	}
 
 	for idx, item := range cases {
-		answer := isPalindrome(item.text)
+		answer := search(item.nums, item.target)
 
 		if item.expected != answer {
 			t.Errorf("[ case %v ] : results not match\nGot:\n%#v\nExpected:\n%#v", idx, answer, item.expected)
 		}
 	}
+
 }

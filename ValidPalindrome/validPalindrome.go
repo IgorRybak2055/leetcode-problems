@@ -1,30 +1,30 @@
 package main
 
-import "strings"
+import "fmt"
 
 func main()  {
-	// for travis CI
+	fmt.Println(isPalindrome("race a car"))
+	// fmt.Println(isPalindrome("Abba"))
 }
 
 func isPalindrome(s string) bool {
-	s = strings.ToLower(s)
-
 	var(
 		start = 0
 		end = len(s)-1
 	)
 
 	for start < end {
-		if !isAlpha(s[start]) {
+		if !(s[start] >= 97 && s[start] <= 122) && !(s[start] >= 48 && s[start] <= 57) && !(s[start] >= 65 && s[start] <= 90) {
 			start++
 			continue
 		}
-		if !isAlpha(s[end]) {
+
+		if !(s[end] >= 97 && s[end] <= 122) && !(s[end] >= 48 && s[end] <= 57) && !(s[end] >= 65 && s[end] <= 90) {
 			end--
 			continue
 		}
 
-		if s[start] != s[end] {
+		if !((s[start] != s[end]) || (s[start] - 32 != s[end]) || (s[start] != s[end] - 32)) { // некорректно работает
 			return false
 		}
 
@@ -45,5 +45,4 @@ func isAlpha(c uint8) bool {
 
 	return false
 }
-
 

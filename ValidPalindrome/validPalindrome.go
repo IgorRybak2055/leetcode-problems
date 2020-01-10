@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main()  {
 	fmt.Println(isPalindrome("race a car"))
@@ -8,23 +11,24 @@ func main()  {
 }
 
 func isPalindrome(s string) bool {
+	s = strings.ToLower(s)
+
 	var(
 		start = 0
 		end = len(s)-1
 	)
 
 	for start < end {
-		if !(s[start] >= 97 && s[start] <= 122) && !(s[start] >= 48 && s[start] <= 57) && !(s[start] >= 65 && s[start] <= 90) {
+		if !isAlpha(s[start]) {
 			start++
 			continue
 		}
-
-		if !(s[end] >= 97 && s[end] <= 122) && !(s[end] >= 48 && s[end] <= 57) && !(s[end] >= 65 && s[end] <= 90) {
+		if !isAlpha(s[end]) {
 			end--
 			continue
 		}
 
-		if !((s[start] != s[end]) || (s[start] - 32 != s[end]) || (s[start] != s[end] - 32)) { // некорректно работает
+		if s[start] != s[end] {
 			return false
 		}
 
@@ -45,4 +49,3 @@ func isAlpha(c uint8) bool {
 
 	return false
 }
-

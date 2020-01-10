@@ -27,6 +27,10 @@ func TestSolutionConstructBinaryTree(t *testing.T) {
 			text:     "шалаш",
 			expected: true,
 		},
+		{
+			text:     "not palindrome",
+			expected: false,
+		},
 	}
 
 	for idx, item := range cases {

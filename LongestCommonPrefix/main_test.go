@@ -32,10 +32,6 @@ func TestSolutionLongestCommonPrefix(t *testing.T) {
 			prefix: "",
 		},
 		{
-			strs:   []string{},
-			prefix: "",
-		},
-		{
 			strs:   []string{"Flow","flow"},
 			prefix: "",
 		},

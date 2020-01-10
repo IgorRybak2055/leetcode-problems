@@ -1,9 +1,13 @@
 package main
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func main()  {
-	// for travis CI
+	fmt.Println(isPalindrome("race a car"))
+	// fmt.Println(isPalindrome("Abba"))
 }
 
 func isPalindrome(s string) bool {
@@ -45,5 +49,3 @@ func isAlpha(c uint8) bool {
 
 	return false
 }
-
-

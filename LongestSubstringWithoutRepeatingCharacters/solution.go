@@ -1,23 +1,28 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	fmt.Println(lengthOfLongestSubstring("tmmzuxt"))
 }
 
 func lengthOfLongestSubstring(s string) int {
 	m := make(map[rune]int)
-	var start, max int
-	for ind, ch := range s {
-		if litterInd, ok := m[ch]; ok && m[ch] >= start {
-			start = litterInd + 1
-			m[ch] = ind
+	var start, lenSubStr int
+
+	for ind, letter := range s {
+		if letterInd, ok := m[letter]; ok && letterInd >= start {
+			start = letterInd + 1
+			m[letter] = ind
 			continue
 		}
 
-		if length := ind - start + 1; length > max {
-			max = length
+		if ind - start + 1 > lenSubStr {
+			lenSubStr = ind - start + 1
 		}
-		m[ch] = ind
+
+		m[letter] = ind
 	}
-	return max
+
+	return lenSubStr
 }

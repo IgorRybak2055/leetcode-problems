@@ -1,11 +1,11 @@
 package main
 
-func main()  {
+func main() {
 	// for travis CI
 }
 
 func longestCommonPrefix(strs []string) string {
-	if strs == nil || len(strs) == 0 {
+	if strs == nil {
 		return ""
 	}
 	var resp string
